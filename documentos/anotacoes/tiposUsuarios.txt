@@ -1,0 +1,4 @@
+João (Gerente) - Acesso Total
+Adalberto (Supervisor/Fiscal) - análisar e autorizar o lançamento do filme no sistema
+Cláudio () - responsável por cadastrar os filmes
+Usuário (Visitante) - Listar Filmes

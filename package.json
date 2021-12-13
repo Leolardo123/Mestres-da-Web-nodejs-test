@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Leolardo123/Mestres-da-Web-nodejs-test/issues"
   },
-  "homepage": "https://github.com/Leolardo123/Mestres-da-Web-nodejs-test#readme"
+  "homepage": "https://github.com/Leolardo123/Mestres-da-Web-nodejs-test#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^6.12.0-beta.3",
+    "sqlite3": "^5.0.2"
+  }
 }
