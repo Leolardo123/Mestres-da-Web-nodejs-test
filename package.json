@@ -1,0 +1,19 @@
+{
+  "name": "mestres-da-web-nodejs-pleno",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leolardo123/Mestres-da-Web-nodejs-test.git"
+  },
+  "author": "L",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leolardo123/Mestres-da-Web-nodejs-test/issues"
+  },
+  "homepage": "https://github.com/Leolardo123/Mestres-da-Web-nodejs-test#readme"
+}
