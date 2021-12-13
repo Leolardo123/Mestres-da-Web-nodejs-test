@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33A526AA-3801-283A-5E04-5C102E129CB2" name="Filme">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-13 22:39:35 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<engineerTo>
+<item key="73505F84-1B6C-1C7F-1AD8-46253979C43F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fim_id" id="B637E02F-54C2-4507-DE63-F0C028469C09">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-13 22:43:02 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<engineerTo>
+<item key="73505F84-1B6C-1C7F-1AD8-46253979C43F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fim_nome" id="72C41309-6EC1-699C-51B7-E2462A5F8FA6">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-13 22:43:02 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<engineerTo>
+<item key="73505F84-1B6C-1C7F-1AD8-46253979C43F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="02A7F945-AF63-6100-DC7B-3C46DDE29059" name="Filme PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-13 22:43:54 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<engineerTo>
+<item key="73505F84-1B6C-1C7F-1AD8-46253979C43F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B637E02F-54C2-4507-DE63-F0C028469C09</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
