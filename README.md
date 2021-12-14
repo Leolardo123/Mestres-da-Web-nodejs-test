@@ -40,6 +40,6 @@ assim que sair do cartaz, passando pela minha autorização. Você pode me ajuda
 
 | Requisitos encontrados  |  Status  |
 | ------------------- | ------------------- |
-|  Abstração dos Usuários | :x: |
+|  Abstração dos Usuários | :white_check_mark: |
 |  Rotas | :x: |
 |  Validação Genérica | :x: |
