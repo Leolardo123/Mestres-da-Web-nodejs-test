@@ -2,28 +2,34 @@ const Usuario = require('../modelos/mod_usuario');
 const bcrypt = require('bcrypt');
 
 const create = async (body) => {
-  const { usu_senha, usu_nome, usu_email } = body;
+  const { usu_senha, usu_nome, usu_email, usu_acesso } = body;
   const senhaCripto = await bcrypt.hash(usu_senha, 10);//senhaCripto recebe criptografia do bcrypt
-  await User.create({ usu_username, usu_nome, senha: senhaCripto});
+  await Usuario.create({ usu_nome, usu_email, usu_acesso, usu_senha: senhaCripto});
 }
 
 const getUsuario = async (id) => {
-  const user = await User.findOne({
-    where: {usu_id: id},
-    attributes: ['usu_id', 'usu_username', 'usu_email']
-  });
-  if(!user) {
-    throw new UserNotFoundException();
-  }
-  return user;
+    const usuario = await Usuario.findOne({
+      where: {usu_id: id},
+      attributes: ["usu_nome", "usu_email", "usu_acesso"]
+    });
+    if(!usuario) {
+      throw new UserNotFoundException();
+    }
+    return usuario;
 }
 
-const findEmail = async (email) => {
-  return await User.findOne({where: {usu_email: email}});
+const getUsuarios = async () => {
+  const usuarios = await Usuario.findAll();
+  return usuarios;
+}
+
+const getUsuarioEmail = async (email) => {
+  return await Usuario.findOne({where: {usu_email: email}});
 }
 
 module.exports = {
   create,
   getUsuario,
-  findEmail
+  getUsuarios,
+  getUsuarioEmail
 }

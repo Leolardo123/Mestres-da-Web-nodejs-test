@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 const database = require('../conectaBD');
  
-const Usuario = database.define('tb_usuario', {
+const Usuario = database.define('tb_usuarios', {
 
     usu_id: {
         type: Sequelize.INTEGER,
