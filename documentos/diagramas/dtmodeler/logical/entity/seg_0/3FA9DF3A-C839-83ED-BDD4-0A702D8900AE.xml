@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3FA9DF3A-C839-83ED-BDD4-0A702D8900AE" name="Filme">
+<createdBy>x554553</createdBy>
+<createdTime>2021-12-14 14:36:18 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<importedID>33A526AA-3801-283A-5E04-5C102E129CB2</importedID>
+<engineerTo>
+<item key="D802C7D6-EE6E-04F0-F9E8-9D8676F72E47" value="true"/>
+<item key="BEF11D21-2C6A-3705-8578-4C59C717A419" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fim_id" id="96EBB30E-FD44-D3C2-996B-58ADF5A19EFC">
+<createdBy>x554553</createdBy>
+<createdTime>2021-12-14 14:36:18 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<importedID>B637E02F-54C2-4507-DE63-F0C028469C09</importedID>
+<engineerTo>
+<item key="D802C7D6-EE6E-04F0-F9E8-9D8676F72E47" value="true"/>
+<item key="BEF11D21-2C6A-3705-8578-4C59C717A419" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fim_nome" id="8A4776DB-A50D-92A1-00E9-33B4F7477898">
+<createdBy>x554553</createdBy>
+<createdTime>2021-12-14 14:36:18 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<importedID>72C41309-6EC1-699C-51B7-E2462A5F8FA6</importedID>
+<engineerTo>
+<item key="D802C7D6-EE6E-04F0-F9E8-9D8676F72E47" value="true"/>
+<item key="BEF11D21-2C6A-3705-8578-4C59C717A419" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7DB03CB8-A89F-6CC9-3165-BC1F053E128B" name="Filme PK">
+<createdBy>x554553</createdBy>
+<createdTime>2021-12-14 14:36:18 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<importedID>02A7F945-AF63-6100-DC7B-3C46DDE29059</importedID>
+<engineerTo>
+<item key="D802C7D6-EE6E-04F0-F9E8-9D8676F72E47" value="true"/>
+<item key="BEF11D21-2C6A-3705-8578-4C59C717A419" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>96EBB30E-FD44-D3C2-996B-58ADF5A19EFC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

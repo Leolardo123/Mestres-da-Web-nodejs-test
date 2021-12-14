@@ -11,12 +11,9 @@ const Filme = database.define('tb_filmes', {
     },
     fim_nome: {
         type: Sequelize.STRING,
-        allowNull: false
-    },
-    fim_idCategoria: {
-        type: Sequelize.STRING,
-        allowNull: false
-    },
+        allowNull: false,
+        unique: true
+    }
 
 })
  

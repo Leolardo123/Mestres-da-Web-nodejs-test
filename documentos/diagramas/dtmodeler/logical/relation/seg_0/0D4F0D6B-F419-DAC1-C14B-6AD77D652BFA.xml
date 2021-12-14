@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="filme_categoria" directorySegmentName="seg_0" id="0D4F0D6B-F419-DAC1-C14B-6AD77D652BFA">
+<createdBy>x554553</createdBy>
+<createdTime>2021-12-14 14:36:18 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<importedID>CDF40DA6-CB12-BA73-495F-A22285116BC4</importedID>
+<engineerTo>
+<item key="D802C7D6-EE6E-04F0-F9E8-9D8676F72E47" value="true"/>
+<item key="BEF11D21-2C6A-3705-8578-4C59C717A419" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3FA9DF3A-C839-83ED-BDD4-0A702D8900AE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4336665D-10AD-5CC8-696E-32CC4F54E59F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

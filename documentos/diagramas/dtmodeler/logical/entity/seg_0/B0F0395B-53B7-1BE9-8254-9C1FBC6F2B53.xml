@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B0F0395B-53B7-1BE9-8254-9C1FBC6F2B53" name="Usuario">
+<createdBy>x554553</createdBy>
+<createdTime>2021-12-14 14:36:18 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<importedID>31A133E9-B765-AA73-38F6-F70CF4F8F8A6</importedID>
+<engineerTo>
+<item key="D802C7D6-EE6E-04F0-F9E8-9D8676F72E47" value="true"/>
+<item key="BEF11D21-2C6A-3705-8578-4C59C717A419" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="usu_id" id="4D0E920E-42D5-BD35-069C-E3D9DAB707CC">
+<createdBy>x554553</createdBy>
+<createdTime>2021-12-14 14:36:18 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<importedID>2E3C21C3-AE99-D722-1A45-0AC1F9AD0468</importedID>
+<engineerTo>
+<item key="D802C7D6-EE6E-04F0-F9E8-9D8676F72E47" value="true"/>
+<item key="BEF11D21-2C6A-3705-8578-4C59C717A419" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usu_nome" id="E92EFA91-B2E5-E156-DD01-BAA87AF8C4B7">
+<createdBy>x554553</createdBy>
+<createdTime>2021-12-14 14:36:18 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<importedID>7A866769-D2DE-573B-8FD5-F6FE42DB0A00</importedID>
+<engineerTo>
+<item key="D802C7D6-EE6E-04F0-F9E8-9D8676F72E47" value="true"/>
+<item key="BEF11D21-2C6A-3705-8578-4C59C717A419" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usu_senha" id="DBEC2543-E943-1C0D-A5E8-2EB6DE3FCCD7">
+<createdBy>x554553</createdBy>
+<createdTime>2021-12-14 14:36:18 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<importedID>ED7D7833-27EC-7068-40B3-2C02D1C7E6DE</importedID>
+<engineerTo>
+<item key="D802C7D6-EE6E-04F0-F9E8-9D8676F72E47" value="true"/>
+<item key="BEF11D21-2C6A-3705-8578-4C59C717A419" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usu_email" id="37C28934-E813-ADAC-D9D0-0D92DD32E223">
+<createdBy>x554553</createdBy>
+<createdTime>2021-12-14 14:36:18 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<importedID>8F0E5D36-C47D-EC8A-59BA-35A176205DD1</importedID>
+<engineerTo>
+<item key="D802C7D6-EE6E-04F0-F9E8-9D8676F72E47" value="true"/>
+<item key="BEF11D21-2C6A-3705-8578-4C59C717A419" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ace_id" id="14BA17B7-BB0D-07F6-8609-C4ACCDFD4994">
+<createdBy>x554553</createdBy>
+<createdTime>2021-12-14 16:25:38 UTC</createdTime>
+<generatorID>C6163F1E-9F91-BA86-12D2-8B85F5667A3E</generatorID>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<engineerTo>
+<item key="D802C7D6-EE6E-04F0-F9E8-9D8676F72E47" value="true"/>
+<item key="BEF11D21-2C6A-3705-8578-4C59C717A419" value="true"/>
+</engineerTo>
+<referedAttribute>B56A24F4-9B9D-066E-8806-C4D3B603884E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E2C7BF2-82A1-73C1-819E-5788BD63C415" name="Usuario PK">
+<createdBy>x554553</createdBy>
+<createdTime>2021-12-14 14:36:18 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<importedID>42E033C9-F26F-75B8-C94B-59219DF4DC66</importedID>
+<engineerTo>
+<item key="D802C7D6-EE6E-04F0-F9E8-9D8676F72E47" value="true"/>
+<item key="BEF11D21-2C6A-3705-8578-4C59C717A419" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4D0E920E-42D5-BD35-069C-E3D9DAB707CC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
