@@ -76,20 +76,19 @@
 <dataTypeSize>255 CHAR</dataTypeSize>
 <ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ace_id" id="14BA17B7-BB0D-07F6-8609-C4ACCDFD4994">
+<Attribute name="usu_acesso" id="91BD09BE-034D-3355-8EA3-A7B90574BD06">
 <createdBy>x554553</createdBy>
-<createdTime>2021-12-14 16:25:38 UTC</createdTime>
-<generatorID>C6163F1E-9F91-BA86-12D2-8B85F5667A3E</generatorID>
+<createdTime>2021-12-14 17:52:53 UTC</createdTime>
 <ownerDesignName>dtmodeler</ownerDesignName>
 <engineerTo>
 <item key="D802C7D6-EE6E-04F0-F9E8-9D8676F72E47" value="true"/>
 <item key="BEF11D21-2C6A-3705-8578-4C59C717A419" value="true"/>
 </engineerTo>
-<referedAttribute>B56A24F4-9B9D-066E-8806-C4D3B603884E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

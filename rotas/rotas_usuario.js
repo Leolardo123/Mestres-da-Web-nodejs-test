@@ -12,6 +12,7 @@ app.post('/', (req, res, next) => {
 })
 
 app.get('/',(req,res)=>{
+    console.log("usuario")
     ctrlUsu.getUsuario()
 })
 

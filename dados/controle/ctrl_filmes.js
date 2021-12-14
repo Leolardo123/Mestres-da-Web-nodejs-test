@@ -1,7 +1,7 @@
 const Categoria = require('../modelos/mod_categoria');
 const FilmeCategorias = require('../modelos/mod_categoria_filmes');
 const Filme = require('../modelos/mod_filme');
-const 
+
 const create = async (body) => {
   let msg = [];
   const { fim_nome } = body;

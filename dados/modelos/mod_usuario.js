@@ -1,6 +1,5 @@
 const Sequelize = require('sequelize');
 const database = require('../conectaBD');
-const Acesso = require('./mod_acesso');
  
 const Usuario = database.define('tb_usuarios', {
 
@@ -22,9 +21,10 @@ const Usuario = database.define('tb_usuarios', {
         type: Sequelize.STRING,
         allowNull: false
     },
-
+    usu_acesso: {
+        type: Sequelize.ENUM("convidado","gerente","supervisor","pesquisador"),
+        defaultValue:"convidado"
+    }
 })
-
-Usuario.belongsTo(Acesso, {foreignKey: {name:'usu_idAcesso',allowNull: false}})
  
 module.exports = Usuario;
