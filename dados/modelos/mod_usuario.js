@@ -1,24 +1,31 @@
 const Sequelize = require('sequelize');
-const database = require('./db');
+const database = require('../conectaBD');
  
-const Produto = database.define('produto', {
-    id: {
+const Usuario = database.define('tb_usuario', {
+
+    usu_id: {
         type: Sequelize.INTEGER,
         autoIncrement: true,
         allowNull: false,
         primaryKey: true
     },
-    nome: {
+    usu_nome: {
         type: Sequelize.STRING,
         allowNull: false
     },
-    email: {
-        type: Sequelize.STRING
+    usu_email: {
+        type: Sequelize.STRING,
+        allowNull: false
     },
-    senha: {
-        type: Sequelize.STRING
+    usu_senha: {
+        type: Sequelize.STRING,
+        allowNull: false
     },
-    descricao: Sequelize.STRING
+    usu_acesso: {//nível de acesso a API ex: Gerente, Funcionário etc
+        type: Sequelize.STRING,
+        allowNull: false
+    }
+
 })
  
-module.exports = Produto;
+module.exports = Usuario;
