@@ -5,18 +5,18 @@ var routUsu = require('express').Router();
 
 routUsu.route('/')
 
-app.post('/', (req, res, next) => {
+app.route('/').post((req, res, next) => {
     ctrlUsu.create(req.body).then(()=>{
         res.json({msg:'usuário criado com sucesso!'})
     })
 })
 
-app.get('/',(req,res)=>{
+app.route('/').get((req,res)=>{
     console.log("usuario")
     ctrlUsu.getUsuario()
 })
 
-app.get('/:id',(req,res)=>{
+app.route('/:id').get((req,res)=>{
     ctrlUsu.getUsuario(req.body.id)
 })
 
