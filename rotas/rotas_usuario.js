@@ -9,6 +9,10 @@ app.post('/cadastrar', (req, res, next) => {
     })
 })
 
+app.get('/usuario',(req,res)=>{
+    ctrlUsu.getUsuario()
+})
+
 app.get('/usuario:id',(req,res)=>{
     ctrlUsu.getUsuario(req.body.id)
 })
