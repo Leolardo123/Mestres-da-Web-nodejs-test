@@ -43,3 +43,5 @@ assim que sair do cartaz, passando pela minha autorização. Você pode me ajuda
 |  Abstração dos Usuários | :white_check_mark: |
 |  Rotas | :x: |
 |  Validação Genérica | :x: |
+|  Conexão com Banco de Dados | :x: |
+|  Abstração das Classes | :x: |
