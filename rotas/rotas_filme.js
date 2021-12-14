@@ -5,13 +5,13 @@ var routFim = require('express').Router();
 
 routFim.route('/')
 
-app.route('/').post((req, res, next) => {
+app.route('/')
+.post((req, res, next) => {
     ctrlFilme.create(req.body).then(()=>{
         res.json({msg:'filme cadastrado com sucesso!'})
     })
 })
-
-app.route('/').get((req,res)=>{
+.get((req,res)=>{
     console.log("filmes")
     ctrlFilme.getFilmes()
 })
