@@ -1,5 +1,5 @@
 const Categoria = require('../modelos/mod_categoria');
-const FilmeCategorias = require('../modelos/mod_categoria_filmes');
+const FilmeCategorias = require('../modelos/mod_filme_categorias');
 const Filme = require('../modelos/mod_filme');
 
 const create = async (body) => {

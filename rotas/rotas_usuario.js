@@ -21,6 +21,4 @@ app.route('/:id').get((req,res)=>{
     ctrlUsu.getUsuario(req.body.id)
 })
 
-app.use('/usuario',routUsu)
-
 module.exports = app

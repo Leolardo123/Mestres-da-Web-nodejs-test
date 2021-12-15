@@ -20,6 +20,4 @@ app.route('/:id').get((req,res)=>{
     ctrlFilme.getFilme(req.params.id)
 })
 
-app.use('/filme',routFim)
-
 module.exports = app

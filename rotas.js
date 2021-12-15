@@ -9,8 +9,10 @@ const app = express();
  
 //Midlewares
 app.use(bodyParser.json());
-app.use(rtUsuario)
-app.use(rtFilme)
+
+//Rotas Aninhadas (nested routes)
+app.use('/usuario',rtUsuario)
+app.use('/filme',rtFilme)
 
 
 //Sinalizador de API ligada
