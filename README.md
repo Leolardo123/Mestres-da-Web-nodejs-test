@@ -29,19 +29,3 @@ assim que sair do cartaz, passando pela minha autorização. Você pode me ajuda
 
 ### Diferenciais 💖
 - DDD
-
-
-### Status do atual projeto
-
-- :warning: incompleto
-- :question: não conssegui
-- :white_check_mark: feito
-- :x: Não feito
-
-| Requisitos encontrados  |  Status  |
-| ------------------- | ------------------- |
-|  Abstração dos Usuários | :white_check_mark: |
-|  Rotas | :x: |
-|  Validação Genérica | :x: |
-|  Conexão com Banco de Dados | :x: |
-|  Abstração das Classes | :x: |
