@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE0878FF-53E9-0EBF-B7EF-8349F0F168A5" name="Categoria">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<generatorID>4336665D-10AD-5CC8-696E-32CC4F54E59F</generatorID>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cat_id" id="84ABB2C4-8F7E-6421-744C-C02176BCEB56">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<generatorID>CA214D55-3BD8-CD75-607E-8FEEC3B9F030</generatorID>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cat_nome" id="E815A3CB-323F-EA6F-6D6C-7944DABB0B98">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<generatorID>7A01A34C-B5D5-382E-4F6E-C4A93522092A</generatorID>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="090BA9D4-F0BD-CECA-A340-83C3EF0DA2AA" name="Categoria_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<generatorID>E41B7C61-BB43-D4AD-3CB8-02DB47305D76</generatorID>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84ABB2C4-8F7E-6421-744C-C02176BCEB56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

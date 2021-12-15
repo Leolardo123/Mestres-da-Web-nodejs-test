@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6DA8ADCE-9BB8-ACDF-B163-80F035ECCCBA" name="Usuario">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<generatorID>B0F0395B-53B7-1BE9-8254-9C1FBC6F2B53</generatorID>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usu_id" id="5660C30E-8DEA-3167-F0C4-4BA563052E06">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<generatorID>4D0E920E-42D5-BD35-069C-E3D9DAB707CC</generatorID>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usu_nome" id="55F73DB8-B7EB-30BA-782B-FFD7F6BCFA54">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<generatorID>E92EFA91-B2E5-E156-DD01-BAA87AF8C4B7</generatorID>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usu_senha" id="E84BFBCA-848E-CB2D-FDCB-C6A165A433DE">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<generatorID>DBEC2543-E943-1C0D-A5E8-2EB6DE3FCCD7</generatorID>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usu_email" id="8D0A8B21-D278-7367-4F64-3978CE0B30E7">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<generatorID>37C28934-E813-ADAC-D9D0-0D92DD32E223</generatorID>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usu_acesso" id="9E8B5D25-D686-0DBC-514F-CD8957C4EDA4">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<generatorID>91BD09BE-034D-3355-8EA3-A7B90574BD06</generatorID>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FA58822-DB9B-2588-A43A-71DA92DD2757" name="Usuario_PKv1">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:13:26 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5660C30E-8DEA-3167-F0C4-4BA563052E06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

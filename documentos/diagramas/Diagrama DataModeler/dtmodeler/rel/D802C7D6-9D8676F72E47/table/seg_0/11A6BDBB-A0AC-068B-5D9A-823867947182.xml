@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11A6BDBB-A0AC-068B-5D9A-823867947182" name="Filme">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<generatorID>3FA9DF3A-C839-83ED-BDD4-0A702D8900AE</generatorID>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fim_id" id="1E29E4E1-824C-6D2A-0ADF-DB5C45F2859D">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<generatorID>96EBB30E-FD44-D3C2-996B-58ADF5A19EFC</generatorID>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fim_nome" id="2C4758A1-D960-203E-7E69-00D6C006C1E9">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<generatorID>8A4776DB-A50D-92A1-00E9-33B4F7477898</generatorID>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fim_descricao" id="94C0DD97-8195-7F61-F327-C66E3DC65B56">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<generatorID>2FA00E98-16FF-B6DD-3E34-3DE18FE11C2D</generatorID>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fim_data" id="55428355-A828-D773-3072-FC767F5DBBE7">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<generatorID>A93DD150-E828-A9C7-706A-7108B2B953D5</generatorID>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42E747DE-4A85-C428-127D-BB417030A064" name="Filme_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<generatorID>7DB03CB8-A89F-6CC9-3165-BC1F053E128B</generatorID>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E29E4E1-824C-6D2A-0ADF-DB5C45F2859D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABC9D280-6B46-D735-219E-DB3361D9EE6D" name="Filme__IDX">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>01091673-E7EB-BD1B-7CAE-466D876449BB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="1E29E4E1-824C-6D2A-0ADF-DB5C45F2859D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

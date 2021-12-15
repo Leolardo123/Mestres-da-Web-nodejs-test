@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92E4BB4C-FFC9-94D2-9103-BF636BC24B5D" name="filme_categoria">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Filme_fim_id" id="B1F713BD-3DF0-ED02-AE1E-297F88D1C5B0">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C9CD18A-9AE1-3C8B-36C3-4F5FB7FE76A8" referredColumn="1E29E4E1-824C-6D2A-0ADF-DB5C45F2859D"/>
+</associations>
+</Column>
+<Column name="Categoria_cat_id" id="A9267ABC-8B50-FBDC-E6AE-EA03B7669A07">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2618785F-AF81-4A52-A13E-D48E47DDFF58" referredColumn="84ABB2C4-8F7E-6421-744C-C02176BCEB56"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94F1ADE1-2A7F-42E4-3D51-BB2F90F233A3" name="filme_categoria_PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1F713BD-3DF0-ED02-AE1E-297F88D1C5B0"/>
+<colUsage columnID="A9267ABC-8B50-FBDC-E6AE-EA03B7669A07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16D13379-5363-AADB-707C-97FA2C9D5018" name="filme_categoria_Filme_FK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<generatorID>0D4F0D6B-F419-DAC1-C14B-6AD77D652BFA</generatorID>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1F713BD-3DF0-ED02-AE1E-297F88D1C5B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C1FA83C-FF86-2A9C-D584-B33589E88EDF" name="filme_categoria_Categoria_FK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2021-12-15 22:08:36 UTC</createdTime>
+<generatorID>0D4F0D6B-F419-DAC1-C14B-6AD77D652BFA</generatorID>
+<ownerDesignName>dtmodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9267ABC-8B50-FBDC-E6AE-EA03B7669A07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
