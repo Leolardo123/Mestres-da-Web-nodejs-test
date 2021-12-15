@@ -1,7 +1,6 @@
 const Sequelize = require('sequelize');
 const database = require('../conectaBD');
-const Categoria = require('./mod_categoria')
-const FilmeCategorias = require('./mod_filme_categorias')
+
 const Filme = database.define('tb_filmes', {
 
     fim_id: {
@@ -17,10 +16,5 @@ const Filme = database.define('tb_filmes', {
     }
 
 })
-
-/*Filme.belongsToMany(Categoria, {
-    through: { model: FilmeCategorias },
-    foreignKey: "fca_idFilme"
-})*/
 
 module.exports = Filme;
