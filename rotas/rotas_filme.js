@@ -13,11 +13,15 @@ app.route('/')
 })
 .get((req,res)=>{
     console.log("filmes")
-    ctrlFilme.getFilmes()
+    ctrlFilme.getFilmes().then((filmes)=>{
+        res.json(filmes)
+    })
 })
 
 app.route('/:id').get((req,res)=>{
-    ctrlFilme.getFilme(req.params.id)
+    ctrlFilme.getFilme().then((filmes)=>{
+        res.json(filmes)
+    })
 })
 
 module.exports = app
